@@ -19,9 +19,9 @@ class App extends Component {
         <div class="holygrail-body">
         <div className="content"></div>
           <ul class="nav">
-            <li>Menu 1</li>
-            <li>Menu 2</li>
-            <li>Menu 3</li>
+            <li><a href="#">-This is a link</a></li>
+            <li><a href="#">-This is a link</a></li>
+            <li><a href="#">-This is a link</a></li>
           </ul>
           <div class="aside"><Ads></Ads></div>
         </div>

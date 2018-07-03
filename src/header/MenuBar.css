@@ -1,0 +1,65 @@
+ul.topnav {
+    list-style-type: none;
+    width: 95%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0065A6;
+    box-shadow: 2.5px 2.5px 1.25px grey;
+    text-shadow: .5px .5px .5px gray;
+    margin-left: 74px;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 28px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #003557;
+}
+
+ul.topnav li a.active {
+    background-color: #003557;
+    color: white;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scrolling {
+    font-size: 12px;
+    position: relative;
+    text-align: justify;
+    transform: translateY(-40%);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+0%   {left:5.9%; right:5.9%;}
+100% {left:1128px; right:1128px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+0%   {left:5.9%; right:5.9%;}
+100% {left:87.5%; right:87.5%;}
+}

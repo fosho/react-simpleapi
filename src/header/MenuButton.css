@@ -1,0 +1,38 @@
+#roundButton {
+    background-color: rgb(86, 178, 231);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 10px solid #0065A6;
+    outline: none;
+    transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+    position: fixed;
+    margin-top: -8px;
+    margin-left: -30px;
+  }
+
+  .putmebackdiv {
+    z-index: 2;
+    position: absolute;
+    font-size: 5px;
+    top: 40px;
+    left: 40px;
+  }
+   
+  #roundButton:hover {
+    background-color: #96D9FF;
+    cursor: pointer;
+    border-color: #003557;
+    transform: scale(1.2, 1.2);
+  }
+   
+  #roundButton:active {
+    border-color: #003557;
+    background-color: #FFF;
+  }
+
+  #roundButton strong {
+    color: #FFF;
+    text-shadow: 2px 2px 2px gray;
+  }
+

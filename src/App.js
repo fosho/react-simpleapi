@@ -20,7 +20,7 @@ class App extends Component {
         <div className="content"></div>
           <ul class="nav">
             <li><a href="#">-This is a link</a></li>
-            <li><a href="#">-This is a link</a></li>
+            <li><a>-This is not a link</a></li>
             <li><a>-This is not a link</a></li>
           </ul>
           <div class="aside"><Ads></Ads></div>
